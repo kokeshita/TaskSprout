@@ -14,8 +14,7 @@
     <!-- google fonts ADD necesary fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Poppins:wght@700&display=swap"
-        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,400;1,500;1,600&display=swap" rel="stylesheet">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -28,7 +27,7 @@
     <!-- Main content -->
     <div id="grad1">
         <!-- header -->
-        <header class="border-bottom border-dark border-1 mb-5">
+        <header>
             <!-- Nav bar -->
             <nav class="navbar navbar-expand-md navbar-light">
                 <div class="container-xl">
@@ -56,9 +55,11 @@
                     </div>
                 </div>
             </nav>
+            <hr class="styled_line">
         </header>
+
         <!-- Banner -->
-        <div class="container text-center pb-2 pt-3 mb-5 p-2 text-dark rounded shadow">
+        <div class="container text-center pb-2 pt-3 mb-5 p-2 text-dark rounded shadow bg-light">
             <div class="jumbotron">
                 <h1>Welcome to TaskSprout</h1>
                 <p>task-tracking, but 8-bit more fun</p>
@@ -75,94 +76,64 @@
                         necessary to grow.
                         Your plant grows as you grow.
                     </p>
-                    <button type="button" class="btn btn-dark btn-lg rounded-pill">Download now</button>
+                    <button id="pink_button" type="button" class="btn btn-light btn-lg rounded-lg">Download now</button>
                 </div>
                 <div class="col-md-6">
                     <img src="media/mini.png" alto="mini onion pet" class="img-fluid" />
                     <img src="media/Oni.png" alt="Onion pet" class="img-fluid" />
                     <img src="media/Avo.png" alt="Avocado pet" class="img-fluid" />
                     <img src="media/Verd.png" alto="Green onion pet" class="img-fluid" />
-
                 </div>
-                        <!-- App Screenshots -->
-        <div class="container-fluid text-center mt-5">
-        <img src="media/Tasksprout splash.png" alt="Splash" class="img-fluid col-md-3 pe-5" />
-        <img src="media/Tasksprout home.png" alto="Home" class="img-fluid col-md-3 pe-3 ps-3" />
-        <img src="media/Tasksprout grow.png" alt="Grow" class="img-fluid col-md-3 ps-5" />
-    </div>
+        </div>
 
-    <footer class="bg-body-tertiary text-center">
-        <!-- Grid container -->
-        <div class="container p-4 pb-0">
-          <!-- Section: Social media -->
-          <section class="mb-4">
-            <!-- Facebook -->
-            <a
-            data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
-              style="background-color: #3b5998;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-facebook-f"></i
-            ></a>
-      
-            <!-- Twitter -->
-            <a
-              data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
-              style="background-color: #55acee;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-twitter"></i
-            ></a>
-      
-            <!-- Google -->
-            <a
-              data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
-              style="background-color: #dd4b39;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-google"></i
-            ></a>
-      
-            <!-- Instagram -->
-            <a
-              data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
-              style="background-color: #ac2bac;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-instagram"></i
-            ></a>
-      
-            <!-- Linkedin -->
-            <a
-              data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
-              style="background-color: #0082ca;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-linkedin-in"></i
-            ></a>
-            <!-- Github -->
-            <a
-              data-mdb-ripple-init
-              class="btn text-white btn-floating m-1"
-              style="background-color: #333333;"
-              href="#!"
-              role="button"
-              ><i class="fab fa-github"></i
-            ></a>
-          </section>
-          <!-- Section: Social media -->
+        <hr class="styled_line">
+        <!-- App Screenshots -->
+        <div class="container-fluid text-center mt-5">
+            <img src="media/Tasksprout splash.png" alt="Splash" class="img-fluid col-md-3 pe-5" />
+            <img src="media/Tasksprout home.png" alto="Home" class="img-fluid col-md-3 pe-3 ps-3" />
+            <img src="media/Tasksprout grow.png" alt="Grow" class="img-fluid col-md-3 ps-5" />
         </div>
-        <!-- Grid container -->
-      
-        <!-- Copyright -->
-        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
-          © 2024 Copyright:
-          <a class="text-body" href="https://mdbootstrap.com/">Tasksprout.com</a>
-        </div>
-        <!-- Copyright -->
-      </footer>
+
+        <hr class="styled_line">
+
+        <footer class="text-center pt-4">
+            <!-- Grid container -->
+            <div class="container p-4 pb-0">
+                <!-- Section: Social media -->
+                <section class="mb-4">
+                    <!-- Facebook -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #3b5998;"
+                        href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+
+                    <!-- Twitter -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #55acee;"
+                        href="#!" role="button"><i class="fab fa-twitter"></i></a>
+
+                    <!-- Google -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #dd4b39;"
+                        href="#!" role="button"><i class="fab fa-google"></i></a>
+
+                    <!-- Instagram -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #ac2bac;"
+                        href="#!" role="button"><i class="fab fa-instagram"></i></a>
+
+                    <!-- Linkedin -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #0082ca;"
+                        href="#!" role="button"><i class="fab fa-linkedin-in"></i></a>
+                    <!-- Github -->
+                    <a data-mdb-ripple-init class="btn text-white btn-floating m-1" style="background-color: #333333;"
+                        href="#!" role="button"><i class="fab fa-github"></i></a>
+                </section>
+                <!-- Section: Social media -->
+            </div>
+            <!-- Grid container -->
+
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.05);">
+                © 2024 Copyright:
+                <a class="text-body" href="https://mdbootstrap.com/">Tasksprout.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+
+    </div>

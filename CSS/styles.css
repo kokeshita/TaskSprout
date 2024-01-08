@@ -1,9 +1,30 @@
 #grad1 {
-    height: 2120px;
-    background-color: #9467C1; /* For browsers that do not support gradients */
+    height: 100%;
+    background-color: #9467C1;
+    /* For browsers that do not support gradients */
     background-image: linear-gradient(#9467C1, #85BFE5);
-  }
+}
 
-  body, #images, #images a {
+body,
+#images,
+#images a {
     font-family: 'Poppins' !important;
- }
+    font-weight: 700 !important;
+}
+
+.styled_line {
+    position: relative;
+    height: 10px;
+    padding-bottom: 10px;
+    margin: 0 100px 20px;
+}
+
+footer{
+    padding: 0 !important;
+}
+
+#pink_button{
+    background-color: #E7A0EB;
+    border: #E7A0EB;
+    font: 'Poppins' !important;
+}
