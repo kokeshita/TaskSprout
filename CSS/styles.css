@@ -19,12 +19,27 @@ body,
     margin: 0 100px 20px;
 }
 
+.styled_line_2 {
+    position: relative;
+    height: 10px;
+    color: black;
+    padding-bottom: 10px;
+}
+
 footer{
     padding: 0 !important;
 }
 
 #pink_button{
     background-color: #E7A0EB;
-    border: #E7A0EB;
-    font: 'Poppins' !important;
+    border: none;
+    font-style: italic;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 24px 20px;
+    
+}
+
+.jumbotron{
+    font-weight: 700 !important;
 }
