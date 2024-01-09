@@ -2,7 +2,7 @@
     height: 100%;
     background-color: #9467C1;
     /* For browsers that do not support gradients */
-    background-image: linear-gradient(#9467C1, #85BFE5);
+    background-image: linear-gradient(#85BFE5, #9467C1)
 }
 
 body,
@@ -12,34 +12,74 @@ body,
     font-weight: 700 !important;
 }
 
+header {
+    padding: 0 5rem;
+}
+
+.nav-link {
+    font-family: 'Poppins' !important;
+    font-weight: 600 !important;
+    font-style: italic !important;
+}
+
 .styled_line {
     position: relative;
-    height: 10px;
-    padding-bottom: 10px;
-    margin: 0 100px 20px;
+    margin: 20px 100px;
+    opacity: 1;
+    height: 1px;
 }
 
-.styled_line_2 {
-    position: relative;
-    height: 10px;
-    color: black;
-    padding-bottom: 10px;
+#banner {
+    border-radius: 30px !important;
 }
 
-footer{
-    padding: 0 !important;
+h1 {
+    font-weight: 700 !important;
 }
 
-#pink_button{
+p{
+    font-style: italic;
+    font-weight: 600;
+}
+
+#app_description{
+    background-color: aliceblue;
+    border-radius: 30px;
+    padding: 3rem;
+    text-align: left;
+
+}
+
+#pink_button {
     background-color: #E7A0EB;
     border: none;
     font-style: italic;
     font-weight: 600;
     border-radius: 30px;
     padding: 24px 20px;
-    
+
 }
 
-.jumbotron{
-    font-weight: 700 !important;
+#pet{
+    max-height: 200px;
+}
+#pet_mini{
+    max-height: 100px;
+}
+
+.row{
+    margin: 0 4rem !important;
+
+}
+
+.styled_line_2 {
+    position: relative;
+    height: 5px;
+    color: black;
+    padding-bottom: 5px;
+    opacity: 1;
+}
+
+footer {
+    padding: 0 !important;
 }
