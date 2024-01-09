@@ -63,9 +63,11 @@ p{
 
 #pet{
     max-height: 200px;
+    margin: 1rem;
 }
 #pet_mini{
     max-height: 100px;
+    margin: 1rem;
 }
 
 .row{
