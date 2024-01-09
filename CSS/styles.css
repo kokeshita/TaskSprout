@@ -13,7 +13,7 @@ body,
 }
 
 header {
-    padding: 0 5rem;
+    padding: 1rem 5rem 0;
 }
 
 .nav-link {
@@ -47,6 +47,7 @@ p{
     border-radius: 30px;
     padding: 3rem;
     text-align: left;
+    font-size: 1rem;
 
 }
 
@@ -78,6 +79,10 @@ p{
     color: black;
     padding-bottom: 5px;
     opacity: 1;
+}
+
+#screen{
+    max-width: 460px;
 }
 
 footer {
